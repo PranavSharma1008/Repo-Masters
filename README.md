@@ -95,6 +95,18 @@ Centralized offsite registry of all repositories, frameworks, and architecture s
 - **Category**: macOS Status Bar Python Wrapper (Cocoa NSStatusBar)
 - **Directives**: Clean Python patterns for macOS Menu Bar status icons, menu actions, floating companions, and background daemons.
 
+### Mem0
+- **Scope**: `BlackyAgent` (Persistent Memory Layer)
+- **Repository**: https://github.com/mem0ai/mem0
+- **Category**: Adaptive Long-Term Memory Engine
+- **Directives**: Memory layer extracting user preferences, past session outcomes, and facts across days with local SQLite/embeddings.
+
+### Letta
+- **Scope**: `BlackyAgent` (Hierarchical Memory Architecture)
+- **Repository**: https://github.com/letta-ai/letta
+- **Category**: OS-Style Memory & Context Management
+- **Directives**: Hierarchical memory management partitioning working context (RAM) from archival storage (Disk) to prevent small context overflow.
+
 ---
 
 ## 3. Project-Scoped Repositories: BloodOcean
