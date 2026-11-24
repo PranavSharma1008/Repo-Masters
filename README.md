@@ -97,7 +97,16 @@ Centralized offsite registry of all repositories, frameworks, and architecture s
 
 ---
 
-## 3. Automated Sync Protocol
+## 3. Project-Scoped Repositories: BloodOcean
+
+> [!IMPORTANT]
+> **Strict Domain Isolation**: When active in **BloodOcean** (or any non-agent / database / web app project), all BlackyAgent, GUI automation, voice, and agent action loop repositories are **strictly deactivated and forbidden**. Only repositories relevant to BloodOcean's domain (e.g. DBMS, database schemas, web endpoints) are to be used.
+
+*(No external repositories registered for BloodOcean yet. Repositories added for BloodOcean will be tagged with `Scope: BloodOcean`).*
+
+---
+
+## 4. Automated Sync Protocol
 
 Whenever a new repository is added to memory:
 1. Append the repository entry with its explicit `Scope` (`Global` or specific project name) to this file (`README.md`).
