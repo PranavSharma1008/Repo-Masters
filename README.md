@@ -41,6 +41,60 @@ Centralized offsite registry of all repositories, frameworks, and architecture s
   - Stores all registered repositories and core instructions offsite on GitHub.
   - Keeps agent memory resilient against local data loss or session resets.
 
+### AgentMemory
+- **Repository**: https://github.com/rohitg00/agentmemory.git
+- **Local Location**: `~/.gemini/references/agentmemory`
+- **Category**: Persistent Memory & MCP Runtime
+- **Directives**:
+  - 4-tier memory consolidation (working, episodic, semantic, procedural).
+  - Hybrid BM25, dense vector search, and knowledge graph traversal.
+  - Native Antigravity skills: `remember`, `recall`, `lesson`, `forget`, `handoff`, `recap`, `memory-discipline`.
+
+### Scientific Agent Skills
+- **Repository**: https://github.com/K-Dense-AI/scientific-agent-skills.git
+- **Local Location**: `~/.gemini/references/scientific-agent-skills`
+- **Category**: AI Scientist & Computational Research
+- **Directives**:
+  - 170+ domain skills spanning genomics, single-cell RNA-seq, cheminformatics (RDKit, docking), clinical modeling (BIDS), and hypothesis trees (Arbor).
+  - Native Antigravity skill: `scientific-skills`.
+
+### Diagram Design
+- **Repository**: https://github.com/cathrynlavery/diagram-design.git
+- **Local Location**: `~/.gemini/references/diagram-design`
+- **Category**: Technical Diagramming & Visual Architecture
+- **Directives**:
+  - Editorial design system for 52 diagram types (system architecture, sequence, ER diagrams, Sankey, axonometric).
+  - Clean HTML/SVG outputs with sharp 1px borders, 4px grid, and no drop-shadow boilerplate.
+  - Native Antigravity skill: `diagram-design`.
+
+### Anthropic Cybersecurity Skills
+- **Repository**: https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git
+- **Local Location**: `~/.gemini/references/cybersecurity-skills`
+- **Category**: Cybersecurity & Threat Operations
+- **Directives**:
+  - 818+ senior cybersecurity skills mapped to MITRE ATT&CK, NIST CSF 2.0, D3FEND, and MITRE ATLAS.
+  - Covers red teaming, DFIR, malware analysis, cloud hardening, and compliance.
+  - Native Antigravity skill: `cybersecurity`.
+
+### Awesome Harness Engineering
+- **Repository**: https://github.com/ai-boost/awesome-harness-engineering.git
+- **Local Location**: `~/.gemini/references/awesome-harness-engineering`
+- **Category**: Agent Harness Engineering & Reliability
+- **Directives**:
+  - Architectural blueprints for production AI agent harnesses.
+  - Maker-checker verification loops, eval-driven autonomy, and deterministic execution gates.
+  - Native Antigravity skill: `harness-engineering`.
+
+### OpenViking
+- **Repository**: https://github.com/volcengine/OpenViking.git
+- **Local Location**: `~/.gemini/references/openviking`
+- **Category**: Agent Context Database & Virtual Filesystem
+- **Directives**:
+  - Virtual filesystem paradigm (`viking://`) organizing memory, skills, and sessions.
+  - Self-evolving context with hierarchical retrieval.
+  - Native Antigravity skills: `openviking-memory`, `openviking-skills`, `ov-experience-memory`, `ov-kanban`, `ov-resources`.
+
+
 ---
 
 ## 2. Automated Sync Protocol
